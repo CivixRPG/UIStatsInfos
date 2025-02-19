@@ -1,0 +1,190 @@
+{
+  "name": "UI Stats Infos",
+  "author": "Ragnarök",
+  "description": "Ajout de statistiques à l'HUD ou interface.",
+  "version": "1.0",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.png",
+  "gameVersion": "1.09",
+  "isModPermanent": false,
+  "requiredByAllPlayers": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "name": "Mode horloge",
+      "type": "combobox",
+      "default": "Auto",
+      "values": [ "Désactivé", "Barre", "Temps", "Auto" ]
+    },
+    {
+      "name": "Barre de statistiques",
+      "type": "combobox",
+      "default": "Décimales",
+      "values": [ "Désactivé", "Arrondie", "Décimales" ]
+    },
+    {
+      "name": "Affichage météo",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Durée de météo",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "Délai de réapparition des requins",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Affichage de la barre de vie",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Histoire",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Durabilité de l'objet",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Affichage de l'équipement",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Poids du radeau",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Boussole",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Affichage de la vitesse",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "ID d'objet",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "Position du radeau",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "Couleur de l'icône du radeau",
+      "type": "slider",
+      "default": 510,
+      "range": {
+        "type": "custom",
+        "min": 0,
+        "max": 1530,
+        "decimals": 0
+      }
+    },
+    {
+      "name": "Distance de la barre de vie",
+      "type": "slider",
+      "default": 10,
+      "range": {
+        "min": 0,
+        "max": 150
+      }
+    },
+    {
+      "name": "Position HUD (X)",
+      "type": "slider",
+      "default": 0.042,
+      "range": {
+        "type": "percent",
+        "min": 0,
+        "max": 1,
+        "decimals": 1
+      }
+    },
+    {
+      "name": "Position HUD (Y)",
+      "type": "slider",
+      "default": 0.042,
+      "range": {
+        "type": "percent",
+        "min": 0,
+        "max": 1,
+        "decimals": 1
+      }
+    },
+    {
+      "name": "Shark Alert",
+      "type": "text"
+    },
+    {
+      "name": "While Attacking Raft",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Attacking Color",
+      "type": "slider",
+      "default": 0,
+      "range": {
+        "type": "custom",
+        "min": 0,
+        "max": 1530,
+        "decimals": 0
+      }
+    },
+    {
+      "name": "While Charging Raft",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "Charging Color",
+      "type": "slider",
+      "default": 255,
+      "range": {
+        "type": "custom",
+        "min": 0,
+        "max": 1530,
+        "decimals": 0
+      }
+    },
+    {
+      "name": "While Searching",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "Searching Color",
+      "type": "slider",
+      "default": 510,
+      "range": {
+        "type": "custom",
+        "min": 0,
+        "max": 1530,
+        "decimals": 0
+      }
+    },
+    {
+      "name": "Alert Never Out of View",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "exclusions",
+      "type": "data"
+    }
+  ]
+}
